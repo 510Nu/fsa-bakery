@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  gap: 0.5rem;
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-evenly;
+}
+
+.navLinks a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #000;
+  text-decoration: none;
+}
+.brand {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 60px;
+  color: red;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  display: flex;
+  padding-left: 5px;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  flex: 1;
+}
+
+.navLinks {
+  display: flex;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  margin: 0;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.testimonial {
+  background-color: rgb(212, 207, 207);
+  font-style: italic;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 0px;
+  margin-right: 10px;
+  padding: 0.5rem;
+}
+
+.testimonial figcaption {
+  padding-left: 45px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+li {
+  border: 2px solid black;
+  display: block flex;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: red;
+  width: 100%;
+  margin: 0.5rem;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  margin: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
